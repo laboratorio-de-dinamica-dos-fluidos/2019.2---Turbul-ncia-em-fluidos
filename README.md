@@ -1,4 +1,4 @@
-# 2019.2---Turbul-ncia-em-Fluidos
+# 2019.2 - Turbulência em Fluidos
 # Experimento de Reynolds
 ## Integrantes
 Roberto Diniz Ramalho da Rocha - 17/0021637  
