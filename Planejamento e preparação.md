@@ -20,3 +20,6 @@ Isaac Moura de Alencar - 17/0069171
 
 ### Semanas 7-9(16/10 a 30/10):
 <p> Confecção do relatório e análise dos resultados.<p>  
+
+## Montagem e execução do experimento
+<p> A montagem do experimento será realizada pelo membro Roberto Diniz e a execução pelo Matheus Lobo. O grupo estima que será necessário, aproximadamente, duas horas para a montagem e realização do ensaio. Nesse tempo, os integrantes deverão preparar os materiais essencias para o experimento, monta-los, testa-los e, por fim, executar o experimento. <p>
