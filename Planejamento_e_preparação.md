@@ -10,7 +10,7 @@ Isaac Moura de Alencar - 17/0069171
 ## Cronograma
 
 ### Semanas 1-3(11/09 a 25/09):
-<p>Pesquisa sobre o experimento e custo dos materiais.<p>  
+<p> Pesquisa sobre o experimento e custo dos materiais.<p>  
 
 ### Semana 4(25/09 a 02/10):
 <p> Montagem dos equipamentos para a realização do experimento.<p>  
