@@ -8,11 +8,15 @@ Isaac Moura de Alencar - 17/0069171
 <p>Identificar os diferentes tipos de regime hidráulico em tubeiras, determinar experimentalmente valores de vazões mássicas e volumétricas, determinar a velocidade do escoamento, o Número de Reynolds e consequentemente classificar o fluxo de acordo com o Número de Reynolds.<p>
 
 ## Cronograma
+
 ### Semanas 1-3(11/09 a 25/09):
-<p>Pesquisa sobre o experimento e custo material.<p>  
+<p>Pesquisa sobre o experimento e custo dos materiais.<p>  
+
 ### Semana 4(25/09 a 02/10):
-<p> Montagem dos equipamentos para realizaçao do experimento.<p>  
+<p> Montagem dos equipamentos para a realização do experimento.<p>  
+
 ### Semanas 5-6(02/10 a 16/10):
-<p> Execuçao do experimento.<p>  
+<p> Execução do experimento.<p>  
+
 ### Semanas 7-9(16/10 a 30/10):
-<p> Confecçao do relatorio e analise dos resultados.<p>  
+<p> Confecção do relatório e análise dos resultados.<p>  
