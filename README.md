@@ -25,7 +25,13 @@ Isaac Moura de Alencar - 17/0069171
 ## Planejamento e preparação
 ### Teoria do experimento
 
-### Procedimentos experimentais 
+### Cronograma 
+Datas         | Tarefa
+------------- | --------------------------
+18/11 - 22/11 | Análise do experimento
+25/11 - 28/11 | Realização do experimento 
+28/11 - 01/12 | Confecção do relatório
+
 
 ### Dados a serem medidos e calculados
 
