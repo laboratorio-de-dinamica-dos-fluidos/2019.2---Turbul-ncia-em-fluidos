@@ -34,7 +34,8 @@ Datas         | Tarefa
 
 
 ### Dados a serem medidos e calculados
+<p> Iremos medir experimentalmente a vazão volumétrica com base nos dados obtidos do Tubo de Venturi. Para isso, precisamos medir a variação de pressão, o diâmetro do tubo, o comprimento do tubo, a massa específica do fluido e a velocidade do escoamento. Após a realização das medições, iremos calcular o Número de Reynolds do escoamento com o intuito de classificar o mesmo. <p>
 
 ### Resultados esperados 
-  
+
 
