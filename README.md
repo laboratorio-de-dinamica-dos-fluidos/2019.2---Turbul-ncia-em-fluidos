@@ -13,14 +13,6 @@ Isaac Moura de Alencar - 17/0069171
 * Determinar os valores de vazão mássica e volumétrica experimentalmente;
 * Calcular a velocidade do escoamento, o Número de Reynolds e classificar o fluxo de acordo com os dados obtidos.
 
-## Materiais necessários
-* Balde transparente de 10 litros;
-* 1 Metro de cano transparente;
-* Válvula reguladora;
-* Seringa de 20 ml;
-* Conectores para os canos;
-* 2 Metros de mangueira.
-
 ## Escopo do experimento
 * Após a montagem do aparato experimental, iremos abrir a válvula reguladora para regular o fluxo de água. Com o fluxo constante, iremos inserir tinta para observar o comportamento do fluxo;
 * Quando o regime hidráulico for estabelecido, iremos medir o tempo e tomaremos medida do volume de água que sai pela válvula durante esse tempo;
@@ -28,5 +20,15 @@ Isaac Moura de Alencar - 17/0069171
 
 
 ## Avaliação de viabilidade 
-<p> O experimento foi definido pelo grupo como viável, devido a simplicidade de execução e a facilidade de obtenção dos materiais necessários para a realização do mesmo. O experimento será bastante proveitoso para o grupo por estar diretamente relacionado com boa parte do conteúdo visto em sala de aula, auxiliando no entendimento do conteúdo. <p>
+<p> O experimento foi definido pelo grupo como viável, devido a simplicidade de execução e a possibilidade de realizar o mesmo na bancada hidráulica do Laboratório de Termofluidos da FGA. O experimento será bastante proveitoso para o grupo por estar diretamente relacionado com boa parte do conteúdo visto em sala de aula, auxiliando no entendimento do conteúdo. <p>
+
+## Planejamento e preparação
+### Teoria do experimento
+
+### Procedimentos experimentais 
+
+### Dados a serem medidos e calculados
+
+### Resultados esperados 
+  
 
