@@ -3,7 +3,7 @@
 ## Integrantes
 Roberto Diniz Ramalho da Rocha - 17/0021637  
 Matheus Lobo Leite Ferreira - 17/0019161   
-Isaac Moura de Alencar - 17/0069171
+Isaac Moura de Alencar - 17/0059171
 
 ## Objetivos
 <p>Identificar os diferentes tipos de regime hidráulico em tubeiras, determinar experimentalmente valores de vazões mássicas e volumétricas, determinar a velocidade do escoamento, o Número de Reynolds e consequentemente classificar o fluxo de acordo com o Número de Reynolds.<p>
@@ -37,5 +37,6 @@ Datas         | Tarefa
 <p> Iremos medir experimentalmente a vazão volumétrica com base nos dados obtidos do Tubo de Venturi. Para isso, precisamos medir a variação de pressão, o diâmetro do tubo, o comprimento do tubo, a massa específica do fluido e a velocidade do escoamento. Após a realização das medições, iremos calcular o Número de Reynolds do escoamento com o intuito de classificar o mesmo. <p>
 
 ### Resultados esperados 
+<p> Espera-se que seja possivel visualizar claramente o escoamento graças a tinta na agua, assim como aferir a partir dos instrumentos no laboratorio pressao, velocidade e vazao do escoamento.<p>
 
 
