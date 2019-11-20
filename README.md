@@ -30,10 +30,10 @@ Isaac Moura de Alencar - 17/0059171
   
 *	0 < Re < 1 – Movimento laminar altamente viscoso;
 *	1 < Re < 100 – Laminar, muito dependente do número de Reynolds;
-*	100 < Re < 103 –  Laminar, teoria da camada limite; 
-*	103 < Re < 104 – Transição para turbulência;
-*	104 < Re < 106 – Turbulento, dependente do número de Reynolds;
-*	106 < Re < ∞  - Turbulento, pouco dependente do número de Reynolds.
+*	100 < Re < 10^3 –  Laminar, teoria da camada limite; 
+*	10^3 < Re < 10^4 – Transição para turbulência;
+*	10^4 < Re < 10^6 – Turbulento, dependente do número de Reynolds;
+*	10^6 < Re < ∞  - Turbulento, pouco dependente do número de Reynolds.
   
 <p> Cabe salientar que não sempre o fluido vai se comportar dessa forma, tudo depende das situações em que o escoamento é exposto. <p>
 <p> No intuito entender o escoamento viscoso em um duto, realizou-se, uma série de experimentos, para a compreensão do escoamento e sua transição para turbulento. Assim, encontrou-se a relação exposta na Fig. 1, em que mostra a perda de pressão em um escoamento de água em tubos longos. <p> 
