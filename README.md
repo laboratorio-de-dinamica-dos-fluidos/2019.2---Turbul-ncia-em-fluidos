@@ -24,6 +24,26 @@ Isaac Moura de Alencar - 17/0059171
 
 ## Planejamento e preparação
 ### Teoria do experimento
+<p> A partir da equação de Navier-Stokes é possível entender o comportamento de um escoamento, entretanto, há vários fatores que atrapalham uma análise geral do escoamento, como a transição do escoamento de laminar para turbulento.<p> 
+<p> Desta maneira, para analisar a transição de um escoamento laminar para turbulento é preciso entender os conceitos de escoamento laminar e turbulento. Um escoamento laminar é aquele que é suave, permanente, com poucas perturbações e apresenta lâminas ou camadas. Nesse tipo de escoamento a viscosidade tem o papel de amortecer e evitar o surgimento de turbulência. Já escoamentos turbulentos, diferente dos laminares, o fluido se comporta de uma forma flutuante e agitado, fazendo com que suas partículas tenham movimentos aleatórios e irregulares. Esse tipo de escoamento é difícil de definir matematicamente, visto que a sua aleatoriedade atrapalha qualquer modelo matemático conhecido. <p>
+<p> Com essas definições, é possível compreender o conceito por trás da transição de um escoamento laminar para turbulento. Diz-se que quando um escoamento deixa de ser laminar e se torna turbulento, houve um processo de mudança chamado transição para turbulento. Normalmente, a transição de um escoamento laminar para turbulento está diretamente associada com a variação do número de Reynolds, visto que, com um número de Reynolds baixo, normalmente, o escoamento é laminar, e, com o aumento desse número, o escoamento tende a mudar para turbulento. Assim, segundo White 2018, temos os seguintes comportamentos: <p>
+  
+*	0 < Re < 1 – Movimento laminar altamente viscoso;
+*	1 < Re < 100 – Laminar, muito dependente do número de Reynolds;
+*	100 < Re < 103 –  Laminar, teoria da camada limite; 
+*	103 < Re < 104 – Transição para turbulência;
+*	104 < Re < 106 – Turbulento, dependente do número de Reynolds;
+*	106 < Re < ∞  - Turbulento, pouco dependente do número de Reynolds.
+  
+<p> Cabe salientar que não sempre o fluido vai se comportar dessa forma, tudo depende das situações em que o escoamento é exposto. <p>
+<p> No intuito entender o escoamento viscoso em um duto, realizou-se, uma série de experimentos, para a compreensão do escoamento e sua transição para turbulento. Assim, encontrou-se a relação exposta na Fig. 1, em que mostra a perda de pressão em um escoamento de água em tubos longos. <p> 
+Figura 1
+<p> Entretanto, apesar da relação entre queda de pressão e velocidade do escoamento, a equação mostrada na Fig. 1 não descreve todos os escoamento, pois com um Q muito alto a fórmula não é válida. Assim, Reynolds mostrou que a mudança de um escoamento laminar para turbulento pode ser equacionado, conforme a Fig. 2. Nesse modelo, que recebeu o seu nome, Osborne Reynolds relacionou o coeficiente de viscosidade do fluido, massa específica, velocidade e diâmetro do duto, e, com essa relação e um conjunto de experimentos, pode mostrar que a transição de um escoamento laminar para turbulento ocorre em Re ~ 2300. <p>
+  Figura 2
+<p> Esse número é essencial para determinar o comportamento de um determinado fluido em um condição específica, de modo que, a partir dele é possível dizer se o fluido possui um escoamento laminar ou turbulento. <p> 
+<p> Reynolds estudou a transição do escoamento de laminar para turbulento conforme mostrado a Fig. 3. Ele introduziu um filete de corante, com auxilio de uma seringa, em um escoamento em um duto, e, foi variando a vazão volumétrica do duto. A variação da vazão volumétrica está relacionada com a mudança da velocidade do escoamento, influenciando diretamente no número de Reynolds. <p>
+  Figura 3
+
 
 ### Cronograma 
 Datas         | Tarefa
