@@ -50,7 +50,7 @@ Figura 1
   Figura 5
 <p> Iremos considerar o escoamento em regime permanente e o fluido incompressível. Assim, a Lei da Conservação das Massas para um volume de controle fica da seguinte maneira: <p>
   Figura 6
-<p> Podemos reescrever essa equação com base na Lei da Conservação das Massas da seguinte maneira: <p>
+<p> Podemos reescrever a equação do Princípio de Bernoulli com base na Lei da Conservação das Massas da seguinte maneira: <p>
   Figura 7
 
 ### Cronograma 
