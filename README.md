@@ -38,7 +38,7 @@ Isaac Moura de Alencar - 17/0059171
 <p> Cabe salientar que não sempre o fluido vai se comportar dessa forma, tudo depende das situações em que o escoamento é exposto. <p>
 <p> No intuito entender o escoamento viscoso em um duto, realizou-se, uma série de experimentos, para a compreensão do escoamento e sua transição para turbulento. Assim, encontrou-se a relação exposta na Fig. 1, em que mostra a perda de pressão em um escoamento de água em tubos longos. <p> 
 
-  ![Figura 1. Equação da queda de pressão encontrada pelo cientista G.H.L. Hagen, onde E é o efeito de entrada](Figura 1.gif)
+  ![Figura 1. Equação da queda de pressão encontrada pelo cientista G.H.L. Hagen, onde E é o efeito de entrada](Figura_1.gif)
 
 <p> Entretanto, apesar da relação entre queda de pressão e velocidade do escoamento, a equação mostrada na Fig. 1 não descreve todos os escoamento, pois com um Q muito alto a fórmula não é válida. Assim, Reynolds mostrou que a mudança de um escoamento laminar para turbulento pode ser equacionado, conforme a Fig. 2. Nesse modelo, que recebeu o seu nome, Osborne Reynolds relacionou o coeficiente de viscosidade do fluido, massa específica, velocidade e diâmetro do duto, e, com essa relação e um conjunto de experimentos, pode mostrar que a transição de um escoamento laminar para turbulento ocorre em Re ~ 2300. <p>
 
