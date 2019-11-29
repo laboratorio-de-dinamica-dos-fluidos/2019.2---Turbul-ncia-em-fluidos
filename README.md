@@ -38,11 +38,15 @@ Isaac Moura de Alencar - 17/0059171
 <p> Cabe salientar que não sempre o fluido vai se comportar dessa forma, tudo depende das situações em que o escoamento é exposto. <p>
 <p> No intuito entender o escoamento viscoso em um duto, realizou-se, uma série de experimentos, para a compreensão do escoamento e sua transição para turbulento. Assim, encontrou-se a relação exposta na Fig. 1, em que mostra a perda de pressão em um escoamento de água em tubos longos. <p> 
 
-  ![Figura 1. Equação da queda de pressão encontrada pelo cientista G.H.L. Hagen, onde E é o efeito de entrada](Figura_1.gif)
+  ![Figura 1](https://user-images.githubusercontent.com/42550287/69881364-98c55c00-12ab-11ea-99e1-e8d92c43e54f.gif)
+
+Figura 1. Equação da queda de pressão encontrada pelo cientista G.H.L Hagen, onde E é o efeito de entrada.
 
 <p> Entretanto, apesar da relação entre queda de pressão e velocidade do escoamento, a equação mostrada na Fig. 1 não descreve todos os escoamento, pois com um Q muito alto a fórmula não é válida. Assim, Reynolds mostrou que a mudança de um escoamento laminar para turbulento pode ser equacionado, conforme a Fig. 2. Nesse modelo, que recebeu o seu nome, Osborne Reynolds relacionou o coeficiente de viscosidade do fluido, massa específica, velocidade e diâmetro do duto, e, com essa relação e um conjunto de experimentos, pode mostrar que a transição de um escoamento laminar para turbulento ocorre em Re ~ 2300. <p>
 
-  ![Figura 2. Equacionamento do Número de Reynolds](Figura 2.gif)
+![Figura 2](https://user-images.githubusercontent.com/42550287/69881482-f659a880-12ab-11ea-9e09-eb7b8d239dcf.gif)
+  
+Figura 2. Equacionamento do Número de Reynolds.
 
 <p> Esse número é essencial para determinar o comportamento de um determinado fluido em um condição específica, de modo que, a partir dele é possível dizer se o fluido possui um escoamento laminar ou turbulento. <p> 
 <p> Reynolds estudou a transição do escoamento de laminar para turbulento conforme mostrado a Fig. 3. Ele introduziu um filete de corante, com auxilio de uma seringa, em um escoamento em um duto, e, foi variando a vazão volumétrica do duto. A variação da vazão volumétrica está relacionada com a mudança da velocidade do escoamento, influenciando diretamente no número de Reynolds. <p>
@@ -51,15 +55,21 @@ Isaac Moura de Alencar - 17/0059171
 
 <p> Para calcular o Número de Reynolds, é necessário conhecer a velocidade do escoamento. Utilizaremos um Tubo de Venturi para encontrar a velocidade. O Tubo de Venturi funciona com base no Princípio de Bernoulli, que descreve o comportamento de um fluido movendo-se ao longo de uma linha de corrente. Para um fluido real, o Princípio de Bernoulli pode ser escrito da seguinte maneira: <p>
   
-  ![Figura 4. Princípio de Bernoulli para fluidos reais](Figura 4.gif)
+![Figura 4](https://user-images.githubusercontent.com/42550287/69881523-112c1d00-12ac-11ea-86dc-350e985215c5.gif)
+
+Figura 4. Princípio de Bernoulli para fluidos reais.
 
 <p> A Lei da Conservação das Massas para um volume de controle é: <p>
   
-  ![Figura 5. Lei da Conservação das Massas para um volume de controle](Figura 5.gif)
+![Figura 5](https://user-images.githubusercontent.com/42550287/69881545-23a65680-12ac-11ea-960f-b0b8820ae8c4.gif)
+
+Figura 5. Lei da Conservação das Massas para um volume de controle.
 
 <p> Iremos considerar o escoamento em regime permanente e o fluido incompressível. Assim, a Lei da Conservação das Massas para um volume de controle fica da seguinte maneira: <p>
 
-  ![Figura 6. Lei da Conservação das Massas para um volume de controle em regime permanente e fluido incompressível](Figura 6.gif)
+![Figura 6](https://user-images.githubusercontent.com/42550287/69881573-36b92680-12ac-11ea-8d44-c2cf2a171928.gif)
+
+Figura 6. Lei da Conservação das Massas para um volume de controle em regime permanente e fluido incompressível
 
 <p> Podemos reescrever a equação do Princípio de Bernoulli com base na Lei da Conservação das Massas da seguinte maneira: <p>
   Figura 7
