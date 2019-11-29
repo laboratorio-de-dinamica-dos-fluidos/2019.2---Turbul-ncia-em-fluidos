@@ -51,7 +51,9 @@ Figura 2. Equacionamento do Número de Reynolds.
 <p> Esse número é essencial para determinar o comportamento de um determinado fluido em um condição específica, de modo que, a partir dele é possível dizer se o fluido possui um escoamento laminar ou turbulento. <p> 
 <p> Reynolds estudou a transição do escoamento de laminar para turbulento conforme mostrado a Fig. 3. Ele introduziu um filete de corante, com auxilio de uma seringa, em um escoamento em um duto, e, foi variando a vazão volumétrica do duto. A variação da vazão volumétrica está relacionada com a mudança da velocidade do escoamento, influenciando diretamente no número de Reynolds. <p>
   
-  Figura 3
+![Figura 3](https://user-images.githubusercontent.com/42550287/69883374-9d414300-12b2-11ea-8c41-0488d1f1c50b.GIF)
+
+Figura 3. Experimento realizado por Reynolds para estudar a transição de um escoamento laminar para turbulento.
 
 <p> Para calcular o Número de Reynolds, é necessário conhecer a velocidade do escoamento. Utilizaremos um Tubo de Venturi para encontrar a velocidade. O Tubo de Venturi funciona com base no Princípio de Bernoulli, que descreve o comportamento de um fluido movendo-se ao longo de uma linha de corrente. O Princípio de Bernoulli pode ser escrito da seguinte maneira: <p>
   
@@ -72,7 +74,10 @@ Figura 5. Lei da Conservação das Massas para um volume de controle.
 Figura 6. Lei da Conservação das Massas para um volume de controle em regime permanente e fluido incompressível
 
 <p> Podemos reescrever a equação do Princípio de Bernoulli com base na Lei da Conservação das Massas da seguinte maneira: <p>
-  Figura 7
+  
+  ![Figura 7](https://user-images.githubusercontent.com/42550287/69883057-34a59680-12b1-11ea-8675-e20e29ec2335.gif)
+  
+ Figura 7. Relação vinda do Princípio de Bernoulli para calcular a velocidade de um escoamento utilizando um Tubo de Venturi.
 
 ### Cronograma 
 Datas         | Tarefa
