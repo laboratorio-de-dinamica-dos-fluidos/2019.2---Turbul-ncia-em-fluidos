@@ -53,11 +53,11 @@ Figura 2. Equacionamento do Número de Reynolds.
   
   Figura 3
 
-<p> Para calcular o Número de Reynolds, é necessário conhecer a velocidade do escoamento. Utilizaremos um Tubo de Venturi para encontrar a velocidade. O Tubo de Venturi funciona com base no Princípio de Bernoulli, que descreve o comportamento de um fluido movendo-se ao longo de uma linha de corrente. Para um fluido real, o Princípio de Bernoulli pode ser escrito da seguinte maneira: <p>
+<p> Para calcular o Número de Reynolds, é necessário conhecer a velocidade do escoamento. Utilizaremos um Tubo de Venturi para encontrar a velocidade. O Tubo de Venturi funciona com base no Princípio de Bernoulli, que descreve o comportamento de um fluido movendo-se ao longo de uma linha de corrente. O Princípio de Bernoulli pode ser escrito da seguinte maneira: <p>
   
-![Figura 4](https://user-images.githubusercontent.com/42550287/69881523-112c1d00-12ac-11ea-86dc-350e985215c5.gif)
+![Figura 4](https://user-images.githubusercontent.com/42550287/69882258-6a954b80-12ae-11ea-96a1-b3a0c9523d38.gif)
 
-Figura 4. Princípio de Bernoulli para fluidos reais.
+Figura 4. Princípio de Bernoulli.
 
 <p> A Lei da Conservação das Massas para um volume de controle é: <p>
   
