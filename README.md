@@ -75,7 +75,7 @@ Figura 6. Lei da Conservação das Massas para um volume de controle em regime p
 
 <p> Podemos reescrever a equação do Princípio de Bernoulli com base na Lei da Conservação das Massas da seguinte maneira: <p>
   
-  ![Figura 7](https://user-images.githubusercontent.com/42550287/69883057-34a59680-12b1-11ea-8675-e20e29ec2335.gif)
+ ![Figura 7](https://user-images.githubusercontent.com/42550287/69905597-a3a7eb80-1394-11ea-9e6d-b15ef9f969ec.gif)
   
  Figura 7. Relação vinda do Princípio de Bernoulli para calcular a velocidade de um escoamento utilizando um Tubo de Venturi.
 
@@ -100,38 +100,47 @@ Datas         | Tarefa                    | Divisão de tarefas
 ### Medições 
 
 ![Comprimento(L)](https://user-images.githubusercontent.com/42550287/69889789-9d9d0680-12d1-11ea-875d-7872903912bf.jpg)
+
 Figura 8. Comprimento do duto.
 
 ![Diâmetro maior](https://user-images.githubusercontent.com/42550287/69889863-fd93ad00-12d1-11ea-9545-9250816797fd.jpg)
+
 Figura 9. Diâmetro maior do duto.
 
 
 ![Medição do diâmetro maior](https://user-images.githubusercontent.com/42550287/69889886-1d2ad580-12d2-11ea-8850-da02a6620ae2.jpg)
+
 Figura 10. Medição do diâmetro maior do duto.
 
 ### Válvula quase fechada
 
 
 ![Quase fechado](https://user-images.githubusercontent.com/42550287/69890264-a098f680-12d3-11ea-9bc0-363a911c0365.gif)
+
 Gif 1. Fluxo de água com a válvula quase fechada.
 
 ![Quase fechado](https://user-images.githubusercontent.com/42550287/69890173-53b52000-12d3-11ea-90ee-796c7cc6c19d.jpg)
+
 Figura 11. Variação de altura com a válvula quase fechada.
 
 ### Válvula aberta pela metade
 
 ![Meio aberto(2)](https://user-images.githubusercontent.com/42550287/69890396-33399580-12d4-11ea-852b-a08813d95570.gif)
+
 Gif 2. Fluxo de água com a válvula aberta pela metade.
 
 ![Meio aberto](https://user-images.githubusercontent.com/42550287/69890103-1b154680-12d3-11ea-9205-70a2358f897a.jpg)
+
 Figura 12.Variação de altura com a válvula aberta pela metade.
 
 ### Válvula toda aberta
 
 ![Todo aberto](https://user-images.githubusercontent.com/42550287/69889995-a7733980-12d2-11ea-946c-7128965c81c1.gif)
+
 Gif 3. Fluxo de água com a válvula toda aberta.
 
 ![Todo aberto](https://user-images.githubusercontent.com/42550287/69890057-f7ea9700-12d2-11ea-8545-2fc8107cd239.jpg)
+
 Figura 13. Variação de altura com a válvula toda aberta.
 
 ## Análise e conclusão
