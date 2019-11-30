@@ -196,3 +196,4 @@ int main()
   Meio aberta   | 0,011706                   | 2177,337
   Quase fechada | 0,009223                   | 1715,390
   
+<p> Apesar do cálculo das velocidades e números de Reynolds é preciso estimar o erro<p>
