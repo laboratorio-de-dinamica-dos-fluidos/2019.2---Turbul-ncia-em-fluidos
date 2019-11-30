@@ -14,8 +14,9 @@ Isaac Moura de Alencar - 17/0059171
 * Calcular a velocidade do escoamento, o Número de Reynolds e classificar o fluxo de acordo com os dados obtidos.
 
 ## Escopo do experimento
-* Após a montagem do aparato experimental, iremos abrir a válvula reguladora para regular o fluxo de água. Com o fluxo constante, iremos inserir tinta para observar o comportamento do fluxo;
-* Quando o regime hidráulico for estabelecido, iremos medir o tempo e tomaremos medida do volume de água que sai pela válvula durante esse tempo;
+* Após a montagem do aparato experimental, iremos abrir a válvula reguladora para regular o fluxo de água. Com o fluxo constante, iremos observar o comportamento do fluxo;
+* Tomaremos as devidas medidas do aparato experimental e estimaremos o possível erro dessas medidas com o intuito de realizar um cálculo preciso;
+* Quando o regime hidráulico for estabelecido, iremos medir a variação da altura da coluna de mercúrio do tubo de venturi;
 * Após obter os dados necessários, iremos realizar os cálculos com o objetivo de classificar o fluido de acordo com o regime hidráulico.
 
 
