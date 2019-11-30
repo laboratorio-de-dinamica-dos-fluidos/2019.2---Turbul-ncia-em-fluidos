@@ -135,4 +135,55 @@ Gif 3. Fluxo de água com a válvula toda aberta.
 Figura 13. Variação de altura com a válvula toda aberta.
 
 ## Análise e conclusão
+<p> Para a realização do cálculo da velocidade e do número de Reynolds, criou-se um código na liguagem C no programa CodeBlocks, como mostrado abaixo: <p>
+  
+  #include <stdio.h> 
+  
+  #include <stdlib.h> 
+  
+  #include <math.h> 
 
+int main()
+{
+    <p> // declaracao da variaveis que serao utilizadas<p>
+    <p>float h_mercurio, visc_agua, gravidade, diam_maior, diam_menor, massa_esp_agua, massa_esp_mercu;<p>
+    <p>float comprimento_tubo, velocidade, numero_reynolds,auxiliar_1,razao_massa_es, razao_diam; <p>
+
+    gravidade = 9.81000;
+    diam_maior = 0.61000;
+    diam_menor = 0.03960;
+    massa_esp_mercu = 13560.00000;
+    massa_esp_agua =1000.00000;
+    visc_agua = 0.00500;
+    comprimento_tubo = 0.93;
+    razao_diam = diam_maior/diam_menor;
+    razao_massa_es = massa_esp_mercu/massa_esp_agua;
+
+    printf("Informe a altura da coluna de mercurio em metros: \n");
+    scanf("%f",&h_mercurio);
+
+
+    // Aplicar o valor encontrado na formula a seguir
+
+    auxiliar_1 = (2*gravidade*h_mercurio*razao_massa_es)/((pow(razao_diam,4.0))-1);
+    velocidade = sqrt(auxiliar_1);
+
+    printf("A velocidade calculada foi de: %f\n", velocidade);
+
+    //vamos agora calcular o numero de reynolds
+
+    numero_reynolds = (massa_esp_agua*velocidade*comprimento_tubo)/visc_agua;
+
+    printf("O numero de Reynolds calculado foi de: %.8f\n", numero_reynolds);
+
+    return 0;
+}
+
+<p> A partir desse código foi possível extrair os dados da velocidade e o número de Reynolds do escoamento. Deste modo calculou-se a velocidade e o Reynolds para três escoamentos com vazões diferentes, de modo que os resultados obtidos foram: <p>
+  
+  Válvula       | Velocidade calculada (m/s) | Número de Reynolds encontrado 
+  ------------- | -------------------------- | -----------------------------
+  Toda aberta   | 0,018825                   | 3501,527
+  Meio aberta   | 0,011706                   | 2177,337
+  Quase fechada | 0,009223                   | 1715,390
+  
