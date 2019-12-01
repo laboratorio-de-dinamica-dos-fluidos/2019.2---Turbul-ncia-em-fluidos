@@ -162,11 +162,11 @@ int main()
     <p>float comprimento_tubo, velocidade, numero_reynolds,auxiliar_1,razao_massa_es, razao_diam; <p>
 
     gravidade = 9.81000;
-    diam_maior = 0.61000;
+    diam_maior = 0.061000;
     diam_menor = 0.03960;
     massa_esp_mercu = 13560.00000;
     massa_esp_agua =1000.00000;
-    visc_agua = 0.00500;
+    visc_agua = 0.0500;
     comprimento_tubo = 0.93;
     razao_diam = diam_maior/diam_menor;
     razao_massa_es = massa_esp_mercu/massa_esp_agua;
@@ -191,15 +191,7 @@ int main()
     return 0;
 }
 
-<p> A partir desse código foi possível extrair os dados da velocidade e o número de Reynolds do escoamento. Deste modo calculou-se a velocidade e o Reynolds para três escoamentos com vazões diferentes, de modo que os resultados obtidos foram: <p>
-  
-  Válvula       | Velocidade calculada (m/s) | Número de Reynolds encontrado 
-  ------------- | -------------------------- | -----------------------------
-  Toda aberta   | 0,018825                   | 3501,527
-  Meio aberta   | 0,011706                   | 2177,337
-  Quase fechada | 0,009223                   | 1715,390
-  
-<p> Apesar do cálculo das velocidades e números de Reynolds é preciso estimar o erro, para isso utilizou-se do codigo a seguir: <p>
+<p> Deste modo, criou-se um código em C para calcular o erro experimental, levando em consideração todas as medidas. O código feito está disponível abaixo: <p>
   
     #include <stdio.h> 
   
@@ -245,4 +237,12 @@ int main()
     return 0;
 {
 
+<p> A partir desses códigos foi possível extrair os dados da velocidade e o número de Reynolds e os seus respectivos erros. Deste modo calculou-se a velocidade e o Reynolds para três escoamentos com vazões diferentes, de modo que os resultados obtidos estão expressos na tabela a abaixo: <p>
+  
+  Válvula       | Velocidade calculada (m/s) | Número de Reynolds encontrado 
+  ------------- | -------------------------- | -----------------------------
+  Toda aberta   | 0,153088                   | 2847,438
+  Meio aberta   | 0,095194                   | 1770,609
+  Quase fechada | 0,074998                   | 1394,954
+  
 
