@@ -95,6 +95,8 @@ Datas         | Tarefa                    | Divisão de tarefas
 <p> Espera-se aferir pressão, velocidade e vazão do escoamento a partir dos instrumentos do laboratório para que seja possível classificar o fluxo do fluido de trabalho, que será água, com base na teoria desenvolvida em sala de aula. Espera-se que assim seja possivel visualizar claramente o escoamento quando o mesmo estiver plenamente desenvolvido.  <p>
 
 ## Procedimentos experimentais 
+<p>O primeiro procedimento a ser realizado foi a medição do Comprimento do duto com uma trena e dos diâmetros dos dutos utilizando-se de um paquímetro, após isso foi verificado se os instrumentos estavam ligados ao duto correto.<p>
+<p>Após os procedimentos descritos posteriormente serem realizados a bancada foi ligada com a válvula que controla o escoamento totalmente aberta, com essa configuração aferiu-se a pressão com o tubo de venturi da bancada e filmou-se o escoamento na seção transparente do duto, tal procedimento foi repetido com a válvula aberta pela metade e a válvula aberta a aproximadamente ⅛<p>.
 
 ## Resultados
 
@@ -197,4 +199,50 @@ int main()
   Meio aberta   | 0,011706                   | 2177,337
   Quase fechada | 0,009223                   | 1715,390
   
-<p> Apesar do cálculo das velocidades e números de Reynolds é preciso estimar o erro<p>
+<p> Apesar do cálculo das velocidades e números de Reynolds é preciso estimar o erro, para isso utilizou-se do codigo a seguir: <p>
+  
+    #include <stdio.h> 
+  
+  #include <stdlib.h> 
+  
+  #include <math.h> 
+
+int main()
+{
+ // declaracao da variaveis que serao utilizadas
+    float h_mercurio, visc_agua, gravidade, diam_maior, diam_menor, massa_esp_agua, massa_esp_mercu, erroH, errodiam_menor;
+    float comprimento_tubo, velocidade, numero_reynolds,auxiliar_1,razao_massa_es, razao_diam, errodiam_maior, errototal; 
+    float errocomprimento_tubo;
+    
+    gravidade = 9.81000;
+    diam_maior = 0.06100;
+    diam_menor = 0.03960;
+    massa_esp_mercu = 13560.00000;
+    massa_esp_agua =1000.00000;
+    visc_agua = 0.0500;
+    comprimento_tubo = 0.93;
+    errodiam_maior=0.0005
+    errodiam_menor=0.0005
+    erroH=0.0005
+    errocomprimento_tubo=0.0005
+    razao_diam = diam_maior/diam_menor;
+    razao_massa_es = massa_esp_mercu/massa_esp_agua;
+    printf("Informe a altura da coluna de mercurio em metros: \n");
+    scanf("%f",&h_mercurio);
+    float derivcomprimento = massa_esp_agua*(sqrt(2*gravidade*h_mercurio*razao_massa_es)/((pow(razao_diam,4.0))-1))/visc_agua;
+    float derivH = massa_esp_agua*comprimento_tubo*0,5(sqrt(2*gravidade*razao_massa_es)/(h_mercurio*(pow(razao_diam,4.0))-1))/visc_agua;
+    float aux1=comprimento_tubo*massa_esp_agua/visc_agua;
+    float aux2= 2*sqrt(2)*razao_massa_es*h_mercurio*diam_maior*diam_maior*diam_maior;
+    float Dmaior4 = diam_maior*diam_maior*diam_maior*diam_maior;
+    float Dmenor4 = diam_menor*diam_menor*diam_menor*diam_menor;
+    float aux3 = Dmenor4*((Dmaior4/Dmenor4)-1)*sqrt(h_mercurio*gravidade*razao_massa_es/((Dmaior4/Dmenor4)-1)));
+    float derivdiam_maior =aux1*aux2/aux3;
+    float aux4 = 2*sqrt(2)*Dmaior4*diam_menor*pow((h_mercurio*razao_massa_es/(Dmaior4*Dmenor4)), 3/2);
+    float aux5 = h_mercurio*gravidade*razao_massa_es;
+    float derivdiam_menor = aux1*aux4/aux5;
+    float erro = sqrt(derivdiam_menor*errodiam_menor+derivdiam_maior*errodiam_maior+derivH*erroH+derivcomprimento*errocomprimento_tubo);
+    printf("O erro relacionado ao numero de Reynolds calculado foi de: %.8f\n", errototal);
+    return 0;
+{
+
+
