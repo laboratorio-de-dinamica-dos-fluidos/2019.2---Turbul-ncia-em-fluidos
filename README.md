@@ -245,4 +245,5 @@ int main()
   Meio aberta   | 0,095194                   | 1770,609
   Quase fechada | 0,074998                   | 1394,954
   
+<p>Ao se observar a tabela obtida nota-se que dois dos escoamentos observados foram laminares(com número de Reynolds<2000) e um turbulento(Reynolds>2000), e nenhum em estado de transição(número de Reynolds próximo a 2000), diferente do que foi esperado do experimento(visualizar o escoamento laminar, turbulento e transicional). Tal divergência dos resultados esperados possivelmente pode ser justificada por 2 acontecimentos, o primeiro sendo a impossibilidade da utilização da tinta para melhor visualizar o escoamento já que poderia danificar o equipamento da Universidade de Brasília, o segundo sendo o difícil manuseio da válvula da bancada que controla o escoamento já que o intervalo onde o escoamento transicional ocorre é muito pequeno quando comparado ao laminar e principalmente ao turbulento. Com exceção dos problemas apresentados acima todos os objetivos do experimento foram atingidos(visualizar o escoamento e aferir vazão e velocidade do mesmo).<p>
 
