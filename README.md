@@ -72,7 +72,7 @@ Figura 5. Lei da Conservação das Massas para um volume de controle.
 
 ![Figura 6](https://user-images.githubusercontent.com/42550287/69881573-36b92680-12ac-11ea-8d44-c2cf2a171928.gif)
 
-Figura 6. Lei da Conservação das Massas para um volume de controle em regime permanente e fluido incompressível
+Figura 6. Lei da Conservação das Massas para um volume de controle em regime permanente e fluido incompressível.
 
 <p> Podemos reescrever a equação do Princípio de Bernoulli com base na Lei da Conservação das Massas da seguinte maneira: <p>
   
@@ -96,7 +96,7 @@ Datas         | Tarefa                    | Divisão de tarefas
 
 ## Procedimentos experimentais 
 <p>O primeiro procedimento a ser realizado foi a medição do Comprimento do duto com uma trena e dos diâmetros dos dutos utilizando-se de um paquímetro, após isso foi verificado se os instrumentos estavam ligados ao duto correto.<p>
-<p>Após os procedimentos descritos posteriormente serem realizados a bancada foi ligada com a válvula que controla o escoamento totalmente aberta, com essa configuração aferiu-se a pressão com o tubo de venturi da bancada e filmou-se o escoamento na seção transparente do duto, tal procedimento foi repetido com a válvula aberta pela metade e a válvula aberta a aproximadamente ⅛<p>.
+<p>Após os procedimentos descritos posteriormente serem realizados a bancada foi ligada com a válvula que controla o escoamento totalmente aberta, com essa configuração aferiu-se a pressão com o tubo de venturi da bancada e filmou-se o escoamento na seção transparente do duto, tal procedimento foi repetido com a válvula aberta pela metade e a válvula aberta a aproximadamente ⅛.<p>
 
 ## Resultados
 
@@ -134,7 +134,7 @@ Gif 2. Fluxo de água com a válvula aberta pela metade.
 
 ![Meio aberto](https://user-images.githubusercontent.com/42550287/69890103-1b154680-12d3-11ea-9205-70a2358f897a.jpg)
 
-Figura 12.Variação de altura com a válvula aberta pela metade.
+Figura 12. Variação de altura com a válvula aberta pela metade.
 
 ### Válvula toda aberta
 
