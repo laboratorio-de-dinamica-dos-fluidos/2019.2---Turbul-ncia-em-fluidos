@@ -185,65 +185,36 @@ int main()
     //vamos agora calcular o numero de reynolds
 
     numero_reynolds = (massa_esp_agua*velocidade*comprimento_tubo)/visc_agua;
+    //Calculo do erro
+    double derivcomprimento = (massa_esp_agua/visc_agua)*(sqrt((2*gravidade*h_mercurio*razao_massa_es)/((pow(razao_diam,(4.0)))-1)));
+    double derivH = (gravidade*comprimento_tubo*massa_esp_mercu)/(sqrt(2)*visc_agua*(pow(razao_diam, 4) -1)*sqrt(gravidade*h_mercurio*massa_esp_mercu/(massa_esp_agua*(pow(razao_diam, 4)-1))));
+    double aux1 = -(2*sqrt(2)*pow(diam_maior, 3)* gravidade*h_mercurio *comprimento_tubo* massa_esp_mercu);
+    double aux2 = (pow(diam_menor, 4)*visc_agua*pow(pow(razao_diam, 4) -1, 2)*sqrt(gravidade*h_mercurio*massa_esp_mercu/(massa_esp_agua*(pow(razao_diam, 4)-1))));
+    double derivdiam_maior = (aux1/aux2);
+    double aux3 = (2*sqrt(2)*pow(diam_maior, 4)*gravidade*h_mercurio*comprimento_tubo*massa_esp_mercu);
+    double aux4 = (visc_agua*pow(diam_menor, 5)*pow((pow(razao_diam, 4)-1), 2)*sqrt(gravidade*h_mercurio*massa_esp_mercu/(massa_esp_agua*(pow(razao_diam, 4)-1))));
+    double derivdiam_menor = (aux3/aux4);
+    errototal = sqrt((pow(derivcomprimento, 2)*pow(errocomprimento_tubo, 2) +pow(derivdiam_menor, 2)*pow(errodiam_menor, 2)+ pow(derivdiam_maior, 2)*
+    pow(errodiam_maior,2)+ pow(derivH, 2)*pow(erroH, 2))/1000);
 
-    printf("O numero de Reynolds calculado foi de: %.8f\n", numero_reynolds);
+    printf("O numero de Reynolds calculado foi de: %.8f +- %.8lf\n", numero_reynolds, errototal);
 
     return 0;
 }
 
-<p> Deste modo, criou-se um código em C para calcular o erro experimental, levando em consideração todas as medidas. O código feito está disponível abaixo: <p>
-  
-    #include <stdio.h> 
-  
-  #include <stdlib.h> 
-  
-  #include <math.h> 
 
-int main()
-{
- // declaracao da variaveis que serao utilizadas
-    float h_mercurio, visc_agua, gravidade, diam_maior, diam_menor, massa_esp_agua, massa_esp_mercu, erroH, errodiam_menor;
-    float comprimento_tubo, velocidade, numero_reynolds,auxiliar_1,razao_massa_es, razao_diam, errodiam_maior, errototal; 
-    float errocomprimento_tubo;
-    
-    gravidade = 9.81000;
-    diam_maior = 0.06100;
-    diam_menor = 0.03960;
-    massa_esp_mercu = 13560.00000;
-    massa_esp_agua =1000.00000;
-    visc_agua = 0.0500;
-    comprimento_tubo = 0.93;
-    errodiam_maior=0.0005
-    errodiam_menor=0.0005
-    erroH=0.0005
-    errocomprimento_tubo=0.0005
-    razao_diam = diam_maior/diam_menor;
-    razao_massa_es = massa_esp_mercu/massa_esp_agua;
-    printf("Informe a altura da coluna de mercurio em metros: \n");
-    scanf("%f",&h_mercurio);
-    float derivcomprimento = massa_esp_agua*(sqrt(2*gravidade*h_mercurio*razao_massa_es)/((pow(razao_diam,4.0))-1))/visc_agua;
-    float derivH = massa_esp_agua*comprimento_tubo*0,5(sqrt(2*gravidade*razao_massa_es)/(h_mercurio*(pow(razao_diam,4.0))-1))/visc_agua;
-    float aux1=comprimento_tubo*massa_esp_agua/visc_agua;
-    float aux2= 2*sqrt(2)*razao_massa_es*h_mercurio*diam_maior*diam_maior*diam_maior;
-    float Dmaior4 = diam_maior*diam_maior*diam_maior*diam_maior;
-    float Dmenor4 = diam_menor*diam_menor*diam_menor*diam_menor;
-    float aux3 = Dmenor4*((Dmaior4/Dmenor4)-1)*sqrt(h_mercurio*gravidade*razao_massa_es/((Dmaior4/Dmenor4)-1)));
-    float derivdiam_maior =aux1*aux2/aux3;
-    float aux4 = 2*sqrt(2)*Dmaior4*diam_menor*pow((h_mercurio*razao_massa_es/(Dmaior4*Dmenor4)), 3/2);
-    float aux5 = h_mercurio*gravidade*razao_massa_es;
-    float derivdiam_menor = aux1*aux4/aux5;
-    float erro = sqrt(derivdiam_menor*errodiam_menor+derivdiam_maior*errodiam_maior+derivH*erroH+derivcomprimento*errocomprimento_tubo);
-    printf("O erro relacionado ao numero de Reynolds calculado foi de: %.8f\n", errototal);
-    return 0;
-{
-
-<p> A partir desses códigos foi possível extrair os dados da velocidade e o número de Reynolds e os seus respectivos erros. Deste modo calculou-se a velocidade e o Reynolds para três escoamentos com vazões diferentes, de modo que os resultados obtidos estão expressos na tabela a abaixo: <p>
+<p> A partir desse código foi possível extrair os dados da velocidade e o número de Reynolds e os seus respectivos erros. Deste modo calculou-se a velocidade e o Reynolds para três escoamentos com vazões diferentes, de modo que os resultados obtidos estão expressos na tabela a abaixo: <p>
   
-  Válvula       | Velocidade calculada (m/s) | Número de Reynolds encontrado 
-  ------------- | -------------------------- | -----------------------------
-  Toda aberta   | 0,153088                   | 2847,438
-  Meio aberta   | 0,095194                   | 1770,609
-  Quase fechada | 0,074998                   | 1394,954
+  Válvula       | Velocidade calculada (m/s) | Número de Reynolds encontrado | Erro 
+  ------------- | -------------------------- | ----------------------------- |--------
+  Toda aberta   | 0,153088                   | 2847,438                      |+-44,88
+  Meio aberta   | 0,095194                   | 1770,609                      |+-28.55
+  Quase fechada | 0,074998                   | 1394,954                      |+-23.42
   
 <p>Ao se observar a tabela obtida nota-se que dois dos escoamentos observados foram laminares(com número de Reynolds<2000) e um turbulento(Reynolds>2000), e nenhum em estado de transição(número de Reynolds próximo a 2000), diferente do que foi esperado do experimento(visualizar o escoamento laminar, turbulento e transicional). Tal divergência dos resultados esperados possivelmente pode ser justificada por 2 acontecimentos, o primeiro sendo a impossibilidade da utilização da tinta para melhor visualizar o escoamento já que poderia danificar o equipamento da Universidade de Brasília, o segundo sendo o difícil manuseio da válvula da bancada que controla o escoamento já que o intervalo onde o escoamento transicional ocorre é muito pequeno quando comparado ao laminar e principalmente ao turbulento. Com exceção dos problemas apresentados acima todos os objetivos do experimento foram atingidos(visualizar o escoamento e aferir vazão e velocidade do mesmo).<p>
-
+<p>Um dos maiores desafios encontrados na realização deste experimento foi o cálculo da propagação do erro, pois a equação obtida para velocidade e número de Reynolds é longa e complexa, dificultando sua derivação, a qual só foi possível graças ao software Wolfram. as equações obtidas se encontram a seguir, com algumas mudanças em sua notação devido ao modo como o software funciona e lê cada equação.<p>
+![Equação utilizada para o erro:](https://github.com/laboratorio-de-dinamica-dos-fluidos/2019.2---Turbul-ncia-em-fluidos/blob/master/eqerro.PNG)
+![Derivada do Reynolds em relação ao comprimento do duto:](https://github.com/laboratorio-de-dinamica-dos-fluidos/2019.2---Turbul-ncia-em-fluidos/blob/master/derivcomprimento.PNG)
+![Derivada do Reynolds em relação a altura da coluna de mercúrio:](https://github.com/laboratorio-de-dinamica-dos-fluidos/2019.2---Turbul-ncia-em-fluidos/blob/master/derivaltura.PNG)
+![Derivada do Reynolds em relação ao diâmetro maior do duto:](https://github.com/laboratorio-de-dinamica-dos-fluidos/2019.2---Turbul-ncia-em-fluidos/blob/master/derivdiammaior.PNG)
+![Derivada do Reynolds em relação ao diâmetro menor do duto:](https://github.com/laboratorio-de-dinamica-dos-fluidos/2019.2---Turbul-ncia-em-fluidos/blob/master/derivdiammenor.PNG)
