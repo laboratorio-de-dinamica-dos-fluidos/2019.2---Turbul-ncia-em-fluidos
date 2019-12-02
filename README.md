@@ -200,7 +200,7 @@ int main()
     printf("O numero de Reynolds calculado foi de: %.8f +- %.8lf\n", numero_reynolds, errototal);
 
     return 0;
-}
+    }
 
 
 <p> A partir desse código foi possível extrair os dados da velocidade e o número de Reynolds e os seus respectivos erros. Deste modo calculou-se a velocidade e o Reynolds para três escoamentos com vazões diferentes, de modo que os resultados obtidos estão expressos na tabela a abaixo: <p>
@@ -211,10 +211,25 @@ int main()
   Meio aberta   | 0,095194                   | 1770,609                      |+-28.55
   Quase fechada | 0,074998                   | 1394,954                      |+-23.42
   
-<p>Ao se observar a tabela obtida nota-se que dois dos escoamentos observados foram laminares(com número de Reynolds<2000) e um turbulento(Reynolds>2000), e nenhum em estado de transição(número de Reynolds próximo a 2000), diferente do que foi esperado do experimento(visualizar o escoamento laminar, turbulento e transicional). Tal divergência dos resultados esperados possivelmente pode ser justificada por 2 acontecimentos, o primeiro sendo a impossibilidade da utilização da tinta para melhor visualizar o escoamento já que poderia danificar o equipamento da Universidade de Brasília, o segundo sendo o difícil manuseio da válvula da bancada que controla o escoamento já que o intervalo onde o escoamento transicional ocorre é muito pequeno quando comparado ao laminar e principalmente ao turbulento. Com exceção dos problemas apresentados acima todos os objetivos do experimento foram atingidos(visualizar o escoamento e aferir vazão e velocidade do mesmo).<p>
-<p>Um dos maiores desafios encontrados na realização deste experimento foi o cálculo da propagação do erro, pois a equação obtida para velocidade e número de Reynolds é longa e complexa, dificultando sua derivação, a qual só foi possível graças ao software Wolfram. as equações obtidas se encontram a seguir, com algumas mudanças em sua notação devido ao modo como o software funciona e lê cada equação.<p>
-![Equação utilizada para o erro:](https://github.com/laboratorio-de-dinamica-dos-fluidos/2019.2---Turbul-ncia-em-fluidos/blob/master/eqerro.PNG)
-![Derivada do Reynolds em relação ao comprimento do duto:](https://github.com/laboratorio-de-dinamica-dos-fluidos/2019.2---Turbul-ncia-em-fluidos/blob/master/derivcomprimento.PNG)
-![Derivada do Reynolds em relação a altura da coluna de mercúrio:](https://github.com/laboratorio-de-dinamica-dos-fluidos/2019.2---Turbul-ncia-em-fluidos/blob/master/derivaltura.PNG)
-![Derivada do Reynolds em relação ao diâmetro maior do duto:](https://github.com/laboratorio-de-dinamica-dos-fluidos/2019.2---Turbul-ncia-em-fluidos/blob/master/derivdiammaior.PNG)
-![Derivada do Reynolds em relação ao diâmetro menor do duto:](https://github.com/laboratorio-de-dinamica-dos-fluidos/2019.2---Turbul-ncia-em-fluidos/blob/master/derivdiammenor.PNG)
+<p>Ao se observar a tabela obtida nota-se que dois dos escoamentos observados estavam em um regime laminar, com Número de Reynolds menor que 2000 e um em regime turbulento, com Número de Reynolds maior que 2000. Diferente do que se esperava visualizar no experimento, não foi possível observar um escoamento em estado de transição, com Número de Reynolds próximo a 2000. Tal divergência dos resultados esperados pode ser justificada por 2 acontecimentos: o primeiro sendo a impossibilidade da utilização da tinta para melhor visualizar o escoamento, já que poderia danificar o equipamento da Universidade de Brasília. O segundo sendo o difícil manuseio da válvula da bancada que controla o escoamento já que o intervalo onde o escoamento em regime de transição ocorre é muito pequeno quando comparado ao laminar e principalmente ao turbulento. Com exceção dos problemas apresentados, os objetivos do experimento, que eram visualizar o escoamento e medir sua vazão e velocidade foram atingidos.<p>
+<p>Outra dificuldade encontrada na realização do experimento foi calcular a propagação do erro, visto que a equação obtida para velocidade e número de Reynolds é longa e complexa, dificultando sua derivação. Entretanto, foi possível calcular a propagação do erro utilizando o software Wolfram. As equações obtidas se encontram a seguir. Algumas alterações foram feitas em sua notação devido ao funcionamento do software.<p>
+
+![eqerro](https://user-images.githubusercontent.com/42550287/69975766-90b52880-1506-11ea-806d-05c7da4ad696.png)
+
+Figura 14. Equação utilizada para o erro.
+  
+![derivcomprimento](https://user-images.githubusercontent.com/42550287/69975759-8bf07480-1506-11ea-88d0-98123425e55c.png)
+
+Figura 15. Derivada do Reynolds em relação ao comprimento do duto.
+
+![derivaltura](https://user-images.githubusercontent.com/42550287/69975756-8abf4780-1506-11ea-8585-35e9b2f6d73a.png)
+
+Figura 16. Derivada do Reynolds em relação a altura da coluna de mercúrio.
+
+![derivdiammaior](https://user-images.githubusercontent.com/42550287/69975761-8d21a180-1506-11ea-9b50-674ce389a7b3.png)
+
+Figura 17. Derivada do Reynolds em relação ao diâmetro maior do duto.
+
+![derivdiammenor](https://user-images.githubusercontent.com/42550287/69975765-8eeb6500-1506-11ea-9f3b-a0475d3b0efd.png)
+
+Figura 18. Derivada do Reynolds em relação ao diâmetro menor do duto.
